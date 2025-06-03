@@ -39,13 +39,13 @@ const ServicesSection = () => {
     {
       title: "Конструкторское бюро",
       description: "Услуги конструкторского бюро по разработке новых моделей",
-      available: false,
+      available: true,
       icon: "Drafting",
     },
     {
-      title: "Вышивка",
+      title: "Вышивка на одежде",
       description: "Машинная и ручная вышивка на готовых изделиях",
-      available: false,
+      available: true,
       icon: "Flower",
     },
     {
