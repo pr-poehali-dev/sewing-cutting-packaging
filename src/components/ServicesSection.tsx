@@ -31,21 +31,22 @@ const ServicesSection = () => {
       icon: "Printer",
     },
     {
-      title: "Создание лекал",
-      description: "Разработка и создание лекал для новых моделей одежды",
-      available: false,
-      icon: "Ruler",
+      title: "Создание трикотажа",
+      description:
+        "Производство трикотажных изделий 1.2 слоя высокого качества",
+      available: true,
+      icon: "Shirt",
     },
     {
-      title: "Конструкторское бюро",
+      title: "Услуги конструкторского бюро",
       description: "Услуги конструкторского бюро по разработке новых моделей",
-      available: true,
+      available: false,
       icon: "Drafting",
     },
     {
       title: "Вышивка на одежде",
       description: "Машинная и ручная вышивка на готовых изделиях",
-      available: true,
+      available: false,
       icon: "Flower",
     },
     {
