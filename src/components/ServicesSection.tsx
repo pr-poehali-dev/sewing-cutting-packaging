@@ -31,11 +31,10 @@ const ServicesSection = () => {
       icon: "Printer",
     },
     {
-      title: "Создание трикотажа",
-      description:
-        "Производство трикотажных изделий 1.2 слоя высокого качества",
-      available: true,
-      icon: "Shirt",
+      title: "Лекала не создаем",
+      description: "Работаем только с готовыми лекалами заказчика",
+      available: false,
+      icon: "FileX",
     },
     {
       title: "Услуги конструкторского бюро",
@@ -91,6 +90,17 @@ const ServicesSection = () => {
             {unavailableServices.map((service, index) => (
               <ServiceCard key={index} {...service} />
             ))}
+          </div>
+        </div>
+
+        <div className="mt-12 text-center">
+          <div className="bg-blue-50 rounded-lg p-6 max-w-md mx-auto">
+            <h4 className="text-lg font-semibold text-blue-800 mb-2">
+              Специализация
+            </h4>
+            <p className="text-blue-700">
+              Создаем трикотаж 1.2 слоя высокого качества
+            </p>
           </div>
         </div>
       </div>
